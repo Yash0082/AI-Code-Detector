@@ -11,7 +11,7 @@ A binary classification project that fine-tunes Microsoft's CodeBERT to detect w
 AI-Code-Detector/
 ├── saved_model/         # Fine-tuned model artifacts
 ├── results/             # Checkpoints and logs
-├── test.py              # Evaluation and training script
+├── main.py              # Evaluation and training script
 ├── inference.py         # Custom code prediction
 ├── requirements.txt     # Dependencies
 └── README.md            # Documentation
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 2. **Run Training & Evaluation**
 
 ```bash
-python test.py
+python main.py
 ```
 
 3. **Inference Example**
